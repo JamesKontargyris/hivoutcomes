@@ -77,7 +77,7 @@ gulp.task('watch', function() {
         notify: false
     });
 
-    gulp.watch(jsDir + '**/*.js', ['scripts']);
+    // gulp.watch(jsDir + '**/*.js', ['scripts']);
     gulp.watch(sassDir + '**/*.scss', ['styles']);
     // gulp.watch(imgDir + '**/*', ['images']);
     gulp.watch(baseDir + '**/*.php').on('change', browserSync.reload);
