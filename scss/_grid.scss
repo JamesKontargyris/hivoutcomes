@@ -1,0 +1,65 @@
+// Breakpoints
+$breakpoints: (
+  'xs': 320px,
+  's': 480px,
+  'm': 900px,
+  'l': 1100px
+);
+
+$xs: new-breakpoint(max-width map-get($breakpoints, 'xs') - 1);
+$s: new-breakpoint(min-width map-get($breakpoints, 'xs') max-width map-get($breakpoints, 's'));
+$s-up: new-breakpoint(min-width map-get($breakpoints, 'xs') + 1);
+$s-down: new-breakpoint(max-width map-get($breakpoints, 's'));
+$m: new-breakpoint(min-width map-get($breakpoints, 's') max-width map-get($breakpoints, 'm'));
+$m-up: new-breakpoint(min-width map-get($breakpoints, 's') + 1);
+$m-down: new-breakpoint(max-width map-get($breakpoints, 'm'));
+$l: new-breakpoint(min-width map-get($breakpoints, 'm') max-width map-get($breakpoints, 'l'));
+$l-up: new-breakpoint(min-width map-get($breakpoints, 'm') + 1);
+$xl: new-breakpoint(min-width map-get($breakpoints, 'l'));
+$xl-up: new-breakpoint(min-width map-get($breakpoints, 'l')+ 1);
+
+
+// Generic layout classes
+ .grid__one-quarter {
+   @include span-columns(12);
+
+   @include media($l-up) {
+     @include span-columns(3);
+   }
+ }
+
+ .grid__one-half {
+   @include span-columns(12);
+
+   @include media($l-up) {
+     @include span-columns(6);
+   }
+ }
+
+ .grid__three-quarters {
+   @include span-columns(12);
+
+   @include media($l-up) {
+     @include span-columns(9);
+   }
+ }
+
+ .grid__one-third {
+   @include span-columns(12);
+
+   @include media($l-up) {
+     @include span-columns(4);
+   }
+ }
+
+ .grid__two-thirds {
+   @include span-columns(12);
+
+   @include media($l-up) {
+     @include span-columns(8);
+   }
+ }
+
+ .grid__full-width {
+   @include span-columns(12);
+ }
