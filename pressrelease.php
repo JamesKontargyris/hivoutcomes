@@ -52,6 +52,6 @@ social needs of PLHIV.</p>
         <li>#BeyondViralSuppression</li>
     </ul>
 </p><br>
-<p><a href="PDF" class="button--primary">Download as PDF</a></p>
+<p><a href="pdf/hivoutcomes_pressrelease.pdf" class="button--primary">Download as PDF</a></p>
 <?php include('partials/footer.html'); ?>
             

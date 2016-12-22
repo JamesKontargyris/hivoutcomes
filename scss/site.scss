@@ -1,8 +1,8 @@
 @import "vendor/bourbon/bourbon.scss", "vendor/neat/neat.scss", "normalize.scss", "base.scss", "variables.scss", "grid.scss";
 
 body {
-    background-color:$red;
-    font-family:Calibri, sans-serif;
+    background-color:$grey;
+    font-family:Calibri, Arial, sans-serif;
     font-size:16px;
     line-height:21px;
     margin-bottom:21px;
@@ -35,7 +35,7 @@ header {
 footer {
     text-align: center;
     font-size: 16px;
-    color: lighten($red, 15%);
+    color: lighten($grey, 15%);
     margin:20px;
 
     a:link, a:visited {
@@ -70,8 +70,8 @@ footer {
 nav {
     display:none;
     text-align:center;
-    padding:30px 20px;
-    font-size:16px;
+    padding:30px 10px;
+    font-size:14px;
     line-height:16px;
     width:300px;
 
@@ -81,7 +81,7 @@ nav {
         text-transform: uppercase;
     }
     a:hover {
-        color:grey;
+        color:$red;
     }
 
     @include media($l-up) {
@@ -145,7 +145,8 @@ hr {
     margin-bottom:42px;
 }
 
-ol li {
+.content ol li,
+.content ul li {
     margin-bottom:28px;
 }
 
@@ -193,7 +194,7 @@ a:link, a:visited {
 .mobile-menu__toggle:link,
 .mobile-menu__toggle:visited {
     display:block;
-    background-color: $grey;
+    background-color: $red;
     text-align:center;
     padding: 15px;
     color:white;
@@ -205,8 +206,14 @@ a:link, a:visited {
 }
 
 /* Text Modifiers */
+.text--left {
+    text-align:left;
+}
 .text--center {
     text-align:center;
+}
+.text--right {
+    text-align:right;
 }
 
 .text--red {
