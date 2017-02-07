@@ -35,7 +35,7 @@ header {
 footer {
     text-align: center;
     font-size: 16px;
-    color: lighten($grey, 15%);
+    color: lighten($grey, 25%);
     margin:20px;
 
     a:link, a:visited {
@@ -203,6 +203,13 @@ a:link, a:visited {
 }
 .mobile-menu__toggle__icon {
     width:16px;
+}
+
+.sponsor-info {
+    font-style: italic;
+    text-align: center;
+    color:$grey;
+    margin-top: 40px;
 }
 
 /* Text Modifiers */

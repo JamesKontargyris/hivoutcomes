@@ -6,13 +6,12 @@
  
 <p>In an era when ageing populations and health system sustainability are central challenges for all European countries, the initiative also aims to inform debates about cost-effective strategies for co-morbidity prevention and management, whilst ensuring patient-centred healthcare delivery. Our recommendations should therefore be of high relevance both to policy makers and the wider health community.</p>
  
-<p>The steering group is currently co-chaired by:</p>
+<p>The steering group’s executive committee currently consists of:</p>
 <ul>
-    <li><strong>Nikos Dedes</strong>, the Founder of Positive Voice (the Greek association for PLHIV) and a Board member of the European AIDS Treatment Group (EATG);</li>
+    <li><strong>Nikos Dedes</strong>, Chair of Positive Voice (the Greek association for PLHIV) and a Board member of the European AIDS Treatment Group (EATG);</li>
     <li><strong>Professor Jane Anderson</strong> of Homerton University Hospital NHS Foundation Trust in London; and</li>
     <li><strong>Professor Jeffrey Lazarus</strong> of ISGlobal, Hospital Clínic at the University of Barcelona, and CHIP, Rigshospitalet, University of Copenhagen.</li>
 </ul>
- <p>The initiative is enabled by sponsorship provided by Gilead Sciences and ViiV Healthcare.</p>
 
 <?php include('partials/footer.html'); ?>
             
